@@ -150,13 +150,13 @@ blockquote {
 }
 
 a {
-    color: #2dd327
+    color: #57ff8f
 }
 
 a.active,
 a:focus,
 a:hover {
-    color: #3700fc
+    color: #ffffff
 }
 
 .lgx-inner {
