@@ -1,22 +1,4 @@
-a,
-a.active,
-a:focus,
-a:hover {
-    text-decoration: none;
-    outline: 0
-}
 
-.btn:active,
-.btn:focus,
-a,
-button:active,
-button:focus,
-input[type=submit]:active,
-input[type=submit]:focus,
-input[type=button]:active,
-input[type=button]:focus {
-    outline: 0
-}
 
 html {
     font-size: 62.5%
@@ -168,13 +150,13 @@ blockquote {
 }
 
 a {
-    color: #d33527
+    color: #2dd327
 }
 
 a.active,
 a:focus,
 a:hover {
-    color: #e4766c
+    color: #3700fc
 }
 
 .lgx-inner {
@@ -505,7 +487,6 @@ button {
 
 .lgx-header .lgx-navbar .lgx-logo,
 .lgx-header .lgx-navbar .lgx-nav {
-    -webkit-transform-origin: center;
     animation-duration: .4s;
     animation-timing-function: linear
 }
@@ -1209,13 +1190,6 @@ button {
     max-width: 180px;
     -webkit-transition: all .3s ease;
     transition: all .3s linear
-}
-
-.lgx-contentslider .lgx-owlcontslider .owl-controls .owl-nav [class*=owl-],
-.lgx-speaker-single .social ul li {
-    -webkit-transition: all .3s ease-in-out 0s;
-    -moz-transition: all .3s ease-in-out 0s;
-    -o-transition: all .3s ease-in-out 0s
 }
 
 .lgx-slider .slider-text-single figure {
@@ -2053,11 +2027,7 @@ button {
     width: 100%
 }
 
-.lgx-schedule .lgx-tab .lgx-tab-content,
-.lgx-schedule .lgx-tab .nav-pills li a {
-    -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, .25);
-    -moz-box-shadow: 0 4px 10px rgba(0, 0, 0, .25)
-}
+
 
 .lgx-video .lgx-modal .modal-dialog .modal-content .modal-header .close {
     margin-top: -36px;
@@ -2073,12 +2043,6 @@ button {
     transition: all .2s ease-in-out 0s
 }
 
-.lgx-register .single .single-bottom,
-.lgx-sponsors .sponsors-area .single {
-    -webkit-transition: all .3s ease-in-out 0s;
-    -moz-transition: all .3s ease-in-out 0s;
-    -o-transition: all .3s ease-in-out 0s
-}
 
 .lgx-video .lgx-modal .modal-dialog .modal-content .modal-header .close:hover {
     opacity: 1
@@ -2723,7 +2687,6 @@ button {
     height: 60px;
     width: 58px;
     display: inline-block;
-    float: left;
     -webkit-transition: all .3s ease-in-out .2s;
     -moz-transition: all .3s ease-in-out .2s;
     -ms-transition: all .3s ease-in-out .2s;
@@ -2805,7 +2768,6 @@ button {
 
 .lgx-blog .lgx-card-single:hover {
     border: 1px solid rgba(16, 34, 62, .05);
-    -webkit-background-clip: padding-box;
     background: #dc4e41
 }
 
@@ -3082,12 +3044,6 @@ button {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 
-.lgx-footer .footer-social ul li,
-.lgx-footer .lgx-subscriber-area .subscribe-form .the-submit-btn {
-    -webkit-transition: all .3s ease-in-out 0s;
-    -moz-transition: all .3s ease-in-out 0s;
-    -o-transition: all .3s ease-in-out 0s
-}
 
 .lgx-contact .lgx-contactform textarea.form-control {
     height: 170px
